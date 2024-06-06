@@ -1,6 +1,6 @@
 <script setup>
 import { useRouter } from 'vue-router'
-import { store } from '../store.js'
+import { store } from '../store.ts'
 
 console.log('logging out')
 

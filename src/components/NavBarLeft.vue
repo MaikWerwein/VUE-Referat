@@ -11,7 +11,7 @@ import IconHouse from './icons/IconHouse.vue'
 
 import { computed } from 'vue'
 
-import { store } from '@/store.js'
+import { store } from '@/store.ts'
 import { useRouter } from 'vue-router'
 
 const loggedIn = computed(() => store.token == 1)

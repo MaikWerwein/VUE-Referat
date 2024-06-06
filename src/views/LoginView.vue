@@ -63,7 +63,7 @@ input:focus {
 <script setup>
 import { useRouter } from 'vue-router'
 import { defineModel, ref } from 'vue'
-import { store } from '../store.js'
+import { store } from '../store.ts'
 
 const errors = ref({
   pass: true

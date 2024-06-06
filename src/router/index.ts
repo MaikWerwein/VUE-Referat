@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import LoginView from '../views/LoginView.vue'
-import LogoutView from '../views/LogoutView.vue'
-import HousesView from '../views/HousesView.vue'
-import { store } from '../store.js'
+import HomeView from '@/views/HomeView.vue'
+import LoginView from '@/views/LoginView.vue'
+import LogoutView from '@/views/LogoutView.vue'
+import HousesView from '@/views/HousesView.vue'
+import { store } from '@/store.ts'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
