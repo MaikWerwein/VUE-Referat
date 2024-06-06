@@ -1,22 +1,30 @@
 <template>
   <div class="item">
     <i>
-      <slot name="icon"></slot>
+      <slot></slot>
     </i>
   </div>
 </template>
 
 <style scoped>
 .item {
+  cursor: pointer;
+
   margin-top: 2rem;
   display: flex;
   min-height: 80px;
   position: absolute;
   align-items: center;
   width: 0px;
+
+  &:hover > i {
+    color: var(--color-text-hover);
+  }
 }
 
 i {
+  transition: 0.2s;
+
   display: flex;
   place-items: center;
   place-content: center;

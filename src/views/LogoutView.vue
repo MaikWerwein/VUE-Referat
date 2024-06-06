@@ -1,9 +1,10 @@
 <script setup>
 import { useRouter } from 'vue-router'
+import { store } from '../store.js'
 
 console.log('logging out')
 
-localStorage.setItem('token', 0)
+store.token = 0
 
 useRouter().push({ path: '/login' })
 </script>
