@@ -3,6 +3,7 @@
     <i>
       <slot></slot>
     </i>
+    <span class="tooltip">{{ route.toUpperCase() }}</span>
   </router-link>
 </template>
 
@@ -17,15 +18,34 @@
   align-items: center;
   width: 0px;
 
-  &:hover > i {
+  color: var(--color-text);
+
+  &:hover > * {
     color: var(--color-text-hover);
   }
 
   &[data-active='true'] {
-    > i {
+    > * {
       color: var(--color-accent);
     }
   }
+}
+
+.tooltip {
+  position: absolute;
+  left: 2rem;
+
+  visibility: hidden;
+
+  background-color: var(--color-background);
+  padding: 2px 5px;
+
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+}
+
+.item:hover > .tooltip {
+  visibility: visible;
 }
 
 i {
@@ -36,8 +56,6 @@ i {
   place-content: center;
 
   border: 1px solid var(--color-border);
-
-  color: var(--color-text);
 
   top: calc(50% - 25px);
   left: -26px;
