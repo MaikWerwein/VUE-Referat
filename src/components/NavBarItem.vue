@@ -1,9 +1,9 @@
 <template>
-  <div class="item">
+  <router-link class="item" :data-active="isActiveRoute.value" :to="{ name: route }">
     <i>
       <slot></slot>
     </i>
-  </div>
+  </router-link>
 </template>
 
 <style scoped>
@@ -19,6 +19,12 @@
 
   &:hover > i {
     color: var(--color-text-hover);
+  }
+
+  &[data-active='true'] {
+    > i {
+      color: var(--color-accent);
+    }
   }
 }
 
@@ -74,3 +80,19 @@ i {
   display: none;
 }
 </style>
+
+<script setup>
+import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+
+const props = defineProps({ route: String })
+
+const route = props.route
+let isActiveRoute = ref({ value: false })
+
+const router = useRouter()
+
+router.afterEach((to) => {
+  isActiveRoute.value.value = route === to.name
+})
+</script>

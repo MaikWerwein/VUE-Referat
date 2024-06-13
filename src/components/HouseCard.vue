@@ -1,5 +1,5 @@
 <template>
-  <div class="xl:col-2 md:col-4 col-6 card-outer">
+  <div class="xl:col-2 lg:col-3 md:col-4 sm:col-6 col-12 card-outer">
     <div class="card-content">
       <div class="header flex vertical-align-middle justify-space-between">
         <IconHouse class="statusColor" />
@@ -14,12 +14,13 @@
 <style scoped>
 .card-outer {
   box-sizing: border-box;
-  padding: 4px;
+  padding: 6px;
 }
 .card-content {
-  padding: 6px;
+  padding: 12px;
+
   border-radius: 5px;
-  min-height: 100px;
+  min-height: 160px;
 }
 
 .title-text {
@@ -49,8 +50,6 @@ function randomInteger(min, max) {
 }
 
 var status = randomInteger(0, 1)
-
-console.log(status)
 
 let statusColor = 'cyan'
 

@@ -41,18 +41,19 @@ function route(route: string) {
 
 <template>
   <div class="navBarWrapper">
-    <NavBarItem @click="route('/')" v-if="loggedIn">
+    <NavBarItem route="home" v-if="loggedIn">
       <DocumentationIcon />
     </NavBarItem>
 
-    <NavBarItem @click="route('/houses')" v-if="loggedIn">
+    <NavBarItem route="houses" v-if="loggedIn">
       <IconHouse />
     </NavBarItem>
-    <NavBarItem @click="route('/about')">
+
+    <NavBarItem route="about">
       <DocumentationIcon />
     </NavBarItem>
 
-    <NavBarItem @click="route('/logout')" v-if="loggedIn"> <IconLogout /> </NavBarItem>
-    <NavBarItem @click="route('/login')" v-else> <IconLogin /> </NavBarItem>
+    <NavBarItem route="logout" v-if="loggedIn"> <IconLogout /> </NavBarItem>
+    <NavBarItem route="login" v-else> <IconLogin /> </NavBarItem>
   </div>
 </template>
