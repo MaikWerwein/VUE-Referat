@@ -1,13 +1,12 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import NavBar from './components/NavBar.vue'
-import TheWelcome from './components/NavBarLeft.vue'
+import { RouterView } from 'vue-router'
+import NavBarLeft from './components/NavBarLeft.vue'
 </script>
 
 <template>
+  <NavBarLeft />
   <div class="layoutWrapper grid">
-    <TheWelcome class="col-fixed sidebar" />
+    <div class="col-fixed sidebar-backdrop" />
     <RouterView class="col" />
   </div>
 </template>
@@ -20,8 +19,10 @@ import TheWelcome from './components/NavBarLeft.vue'
 
   width: 100vw;
   min-height: 100vh;
+}
 
-  overflow-x: hidden;
+.sidebar-backdrop {
+  width: 100px;
 }
 
 ::-webkit-scrollbar {

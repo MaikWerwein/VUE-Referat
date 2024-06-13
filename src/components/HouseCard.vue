@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:col-2 md:col-3 col-6 card-outer">
+  <div class="xl:col-2 md:col-4 col-6 card-outer">
     <div class="card-content">
       <div class="header flex vertical-align-middle justify-space-between">
         <IconHouse class="statusColor" />

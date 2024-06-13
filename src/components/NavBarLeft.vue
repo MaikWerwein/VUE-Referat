@@ -1,9 +1,5 @@
 <script setup lang="ts">
 import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
 import NavBarItem from './NavBarItem.vue'
 import IconLogin from './icons/IconLogin.vue'
 import IconLogout from './icons/IconLogout.vue'
@@ -22,22 +18,11 @@ const router = useRouter()
 function route(route: string) {
   router.push({ path: route })
 }
-
-function toLogin() {
-  router.push({ path: '/login' })
-}
-
-function toLogout() {
-  router.push({ path: '/logout' })
-}
-
-function toHouses() {
-  router.push({ path: '/houses' })
-}
 </script>
 
 <style scoped>
 .navBarWrapper {
+  z-index: 100;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +31,7 @@ function toHouses() {
 
   justify-content: center;
 
-  position: relative;
+  position: fixed;
 }
 
 .navBarWrapper > * {
