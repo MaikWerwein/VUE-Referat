@@ -1,8 +1,8 @@
 <template>
   <div class="lg:col-2 md:col-3 col-6 card-outer">
-    <div data-status="ok" class="card-content">
+    <div class="card-content">
       <div class="header flex vertical-align-middle justify-space-between">
-        <IconHouse />
+        <IconHouse class="statusColor" />
         <span class="title-text pl-2">
           {{ house.adresse }}
         </span>
@@ -27,18 +27,41 @@
 }
 
 .header {
-  /* ???????? */
   border-bottom: solid 1px var(--color-border);
 }
 
-.card-content[data-status='ok'] {
-  border: 1px solid var(--color-accent);
+.card-content {
+  border: 1px solid var(--color-border);
+}
+
+.statusColor {
+  color: v-bind('statusColor');
 }
 </style>
 
 <script setup>
-import { defineProps } from 'vue'
 import IconHouse from './icons/IconHouse.vue'
 
 defineProps({ house: null })
+
+function randomInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min
+}
+
+var status = randomInteger(0, 1)
+
+console.log(status)
+
+let statusColor = 'cyan'
+
+switch (status) {
+  case 0:
+    statusColor = 'var(--color-accent) '
+    break
+  case 1:
+    statusColor = 'var(--color-error)'
+    break
+  default:
+    statusColor = 'blue'
+}
 </script>

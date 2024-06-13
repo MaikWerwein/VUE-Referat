@@ -78,5 +78,965 @@
       { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
       { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
     ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
+  },
+  {
+    "ID": 10,
+    "adresse": "Rathausplatz 10",
+    "haus_sensor": [
+      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
+      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    ]
   }
 ]

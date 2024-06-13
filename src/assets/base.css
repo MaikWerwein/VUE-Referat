@@ -35,7 +35,7 @@
   --color-text-hover: var(--vt-c-black);
 
   --color-accent: hsla(160, 100%, 37%, 1);
-  --color-error: rgb(207, 24, 48);
+  --color-error: rgb(235, 43, 68);
   --section-gap: 160px;
 }
 

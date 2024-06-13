@@ -38,22 +38,19 @@ function toHouses() {
 
 <style scoped>
 .navBarWrapper {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100vh;
   width: 80px;
 
   justify-content: center;
 
   position: relative;
-
-  padding-right: 1rem;
 }
 
 .navBarWrapper > * {
   position: relative;
-  left: 40px;
 }
 </style>
 

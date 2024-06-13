@@ -14,15 +14,13 @@ import houses from '@/assets/data.json'
 
 <style scoped>
 .center-content {
-  margin: auto;
-  padding: 10px;
+  padding: 0;
+  box-sizing: border-box;
   height: 100%;
-  flex-grow: 1;
-  padding-left: 2rem;
   padding-top: 2rem;
 }
 
 .housesGrid {
-  width: 100%;
+  margin-right: 1rem;
 }
 </style>

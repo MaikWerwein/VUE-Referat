@@ -6,19 +6,38 @@ import TheWelcome from './components/NavBarLeft.vue'
 </script>
 
 <template>
-  <div class="layoutWrapper">
-    <TheWelcome />
-    <RouterView />
+  <div class="layoutWrapper grid">
+    <TheWelcome class="col-fixed sidebar" />
+    <RouterView class="col" />
   </div>
 </template>
 
-<style scoped>
+<style>
 .layoutWrapper {
+  position: absolute;
+
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
 
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  background-color: var(--color-text);
 }
 </style>
