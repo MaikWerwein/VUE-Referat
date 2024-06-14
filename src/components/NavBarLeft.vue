@@ -4,20 +4,14 @@ import NavBarItem from './NavBarItem.vue'
 import IconLogin from './icons/IconLogin.vue'
 import IconLogout from './icons/IconLogout.vue'
 import IconHouse from './icons/IconHouse.vue'
+import IconProfile from './icons/IconProfile.vue'
 
 import { computed } from 'vue'
 
 import { store } from '@/store.ts'
-import { useRouter } from 'vue-router'
 
 const loggedIn = computed(() => store.token == 1)
 console.log('Logged in: ' + loggedIn.value)
-
-const router = useRouter()
-
-function route(route: string) {
-  router.push({ path: route })
-}
 </script>
 
 <style scoped>
@@ -41,15 +35,19 @@ function route(route: string) {
 
 <template>
   <div class="navBarWrapper">
-    <NavBarItem route="home" v-if="loggedIn">
-      <DocumentationIcon />
-    </NavBarItem>
-
-    <NavBarItem route="houses" v-if="loggedIn">
+    <NavBarItem route="home">
       <IconHouse />
     </NavBarItem>
 
-    <NavBarItem route="about">
+    <NavBarItem route="profile" v-if="loggedIn">
+      <IconProfile />
+    </NavBarItem>
+
+    <NavBarItem route="houses" v-if="loggedIn">
+      <DocumentationIcon />
+    </NavBarItem>
+
+    <NavBarItem route="about" v-if="loggedIn">
       <DocumentationIcon />
     </NavBarItem>
 

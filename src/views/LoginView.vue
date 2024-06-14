@@ -115,7 +115,7 @@ const pass = defineModel('pass')
 
 function login() {
   store.token = 1
-  router.push({ path: '/' })
+  router.push({ name: 'home' })
 }
 
 function invalidateName() {

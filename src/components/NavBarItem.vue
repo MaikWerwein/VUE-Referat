@@ -1,10 +1,10 @@
 <template>
-  <router-link class="item" :data-active="isActiveRoute.value" :to="{ name: route }">
+  <RouterLink class="item" :data-active="isActiveRoute.value" :to="{ name: route }">
     <i>
       <slot></slot>
     </i>
     <span class="tooltip">{{ route.toUpperCase() }}</span>
-  </router-link>
+  </RouterLink>
 </template>
 
 <style scoped>
