@@ -95,7 +95,7 @@ input:focus {
 }
 </style>
 
-<script setup>
+<script setup lang="ts">
 import IconWarn from '@/components/icons/IconWarn.vue'
 
 import { useRouter } from 'vue-router'

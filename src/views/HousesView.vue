@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import HouseCard from '@/components/HouseCard.vue'
 
 import houses from '@/assets/data.json'

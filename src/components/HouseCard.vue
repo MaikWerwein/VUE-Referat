@@ -40,7 +40,7 @@
 }
 </style>
 
-<script setup>
+<script setup lang="ts">
 import IconHouse from './icons/IconHouse.vue'
 
 defineProps({ house: null })
