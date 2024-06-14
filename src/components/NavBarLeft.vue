@@ -5,6 +5,7 @@ import IconLogin from './icons/IconLogin.vue'
 import IconLogout from './icons/IconLogout.vue'
 import IconHouse from './icons/IconHouse.vue'
 import IconProfile from './icons/IconProfile.vue'
+import IconList from './icons/IconList.vue'
 
 import { computed } from 'vue'
 
@@ -44,7 +45,7 @@ console.log('Logged in: ' + loggedIn.value)
     </NavBarItem>
 
     <NavBarItem route="houses" v-if="loggedIn">
-      <DocumentationIcon />
+      <IconList />
     </NavBarItem>
 
     <NavBarItem route="about" v-if="loggedIn">

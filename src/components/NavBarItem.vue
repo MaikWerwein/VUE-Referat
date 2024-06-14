@@ -1,9 +1,12 @@
 <template>
+  <!-- Linking to page -->
   <RouterLink class="item" :data-active="isActiveRoute.value" :to="{ name: route }">
+    <!-- Icon -->
     <i>
       <slot></slot>
     </i>
-    <span class="tooltip">{{ route.toUpperCase() }}</span>
+    <!-- Tooltip -->
+    <span class="tooltip">{{ route[0].toUpperCase() + route.slice(1) }}</span>
   </RouterLink>
 </template>
 
@@ -103,7 +106,7 @@ i {
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 
-const props = defineProps({ route: String })
+const props = defineProps({ route: { type: String, required: true } })
 
 const route = props.route
 let isActiveRoute = ref({ value: false })
