@@ -110,8 +110,8 @@ const errors = ref({
 
 const router = useRouter()
 
-const userName = defineModel('userName')
-const pass = defineModel('pass')
+const userName = defineModel('userName', { type: String })
+const pass = defineModel('pass', { type: String })
 
 function login() {
   store.token = 1
@@ -161,7 +161,7 @@ function validatePass() {
   errors.value.pass = true
 }
 
-function checkForm(e) {
+function checkForm(e: Event) {
   e.preventDefault()
   login()
 }

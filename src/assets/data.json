@@ -1,2626 +1,912 @@
 [
   {
-    "ID": 1,
-    "adresse": "Musterstrass 1",
-    "haus_sensor": [
-      { "ID": 4, "FK_Haus": 1, "FK_Sensor": 1 },
-      { "ID": 5, "FK_Haus": 1, "FK_Sensor": 2 }
-    ]
-  },
-  {
-    "ID": 2,
-    "adresse": "Beispielweg 2",
-    "haus_sensor": [
-      { "ID": 6, "FK_Haus": 2, "FK_Sensor": 3 },
-      { "ID": 7, "FK_Haus": 2, "FK_Sensor": 4 }
-    ]
-  },
-  {
-    "ID": 3,
-    "adresse": "Testgasse 3",
-    "haus_sensor": [
-      { "ID": 8, "FK_Haus": 3, "FK_Sensor": 5 },
-      { "ID": 9, "FK_Haus": 3, "FK_Sensor": 6 }
-    ]
-  },
-  {
-    "ID": 4,
-    "adresse": "Neue Strass 4",
-    "haus_sensor": [
-      { "ID": 10, "FK_Haus": 4, "FK_Sensor": 7 },
-      { "ID": 11, "FK_Haus": 4, "FK_Sensor": 8 }
-    ]
-  },
-  {
-    "ID": 5,
-    "adresse": "Alte Gasse 5",
-    "haus_sensor": [
-      { "ID": 12, "FK_Haus": 5, "FK_Sensor": 1 },
-      { "ID": 13, "FK_Haus": 5, "FK_Sensor": 3 }
-    ]
-  },
-  {
-    "ID": 6,
-    "adresse": "Bergweg 6",
-    "haus_sensor": [
-      { "ID": 14, "FK_Haus": 6, "FK_Sensor": 2 },
-      { "ID": 15, "FK_Haus": 6, "FK_Sensor": 4 }
-    ]
-  },
-  {
-    "ID": 7,
-    "adresse": "Seestrass 7",
-    "haus_sensor": [
-      { "ID": 16, "FK_Haus": 7, "FK_Sensor": 5 },
-      { "ID": 17, "FK_Haus": 7, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 8,
-    "adresse": "Hauptstrass 8",
-    "haus_sensor": [
-      { "ID": 18, "FK_Haus": 8, "FK_Sensor": 6 },
-      { "ID": 19, "FK_Haus": 8, "FK_Sensor": 8 }
-    ]
-  },
-  {
-    "ID": 9,
-    "adresse": "Nebenstrass 9",
-    "haus_sensor": [
-      { "ID": 20, "FK_Haus": 9, "FK_Sensor": 1 },
-      { "ID": 21, "FK_Haus": 9, "FK_Sensor": 5 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 2,
-    "adresse": "Beispielweg 2",
-    "haus_sensor": [
-      { "ID": 6, "FK_Haus": 2, "FK_Sensor": 3 },
-      { "ID": 7, "FK_Haus": 2, "FK_Sensor": 4 }
-    ]
-  },
-  {
-    "ID": 3,
-    "adresse": "Testgasse 3",
-    "haus_sensor": [
-      { "ID": 8, "FK_Haus": 3, "FK_Sensor": 5 },
-      { "ID": 9, "FK_Haus": 3, "FK_Sensor": 6 }
-    ]
-  },
-  {
-    "ID": 4,
-    "adresse": "Neue Strass 4",
-    "haus_sensor": [
-      { "ID": 10, "FK_Haus": 4, "FK_Sensor": 7 },
-      { "ID": 11, "FK_Haus": 4, "FK_Sensor": 8 }
-    ]
-  },
-  {
-    "ID": 5,
-    "adresse": "Alte Gasse 5",
-    "haus_sensor": [
-      { "ID": 12, "FK_Haus": 5, "FK_Sensor": 1 },
-      { "ID": 13, "FK_Haus": 5, "FK_Sensor": 3 }
-    ]
-  },
-  {
-    "ID": 6,
-    "adresse": "Bergweg 6",
-    "haus_sensor": [
-      { "ID": 14, "FK_Haus": 6, "FK_Sensor": 2 },
-      { "ID": 15, "FK_Haus": 6, "FK_Sensor": 4 }
-    ]
-  },
-  {
-    "ID": 7,
-    "adresse": "Seestrass 7",
-    "haus_sensor": [
-      { "ID": 16, "FK_Haus": 7, "FK_Sensor": 5 },
-      { "ID": 17, "FK_Haus": 7, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 8,
-    "adresse": "Hauptstrass 8",
-    "haus_sensor": [
-      { "ID": 18, "FK_Haus": 8, "FK_Sensor": 6 },
-      { "ID": 19, "FK_Haus": 8, "FK_Sensor": 8 }
-    ]
-  },
-  {
-    "ID": 9,
-    "adresse": "Nebenstrass 9",
-    "haus_sensor": [
-      { "ID": 20, "FK_Haus": 9, "FK_Sensor": 1 },
-      { "ID": 21, "FK_Haus": 9, "FK_Sensor": 5 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 2,
-    "adresse": "Beispielweg 2",
-    "haus_sensor": [
-      { "ID": 6, "FK_Haus": 2, "FK_Sensor": 3 },
-      { "ID": 7, "FK_Haus": 2, "FK_Sensor": 4 }
-    ]
-  },
-  {
-    "ID": 3,
-    "adresse": "Testgasse 3",
-    "haus_sensor": [
-      { "ID": 8, "FK_Haus": 3, "FK_Sensor": 5 },
-      { "ID": 9, "FK_Haus": 3, "FK_Sensor": 6 }
-    ]
-  },
-  {
-    "ID": 4,
-    "adresse": "Neue Strass 4",
-    "haus_sensor": [
-      { "ID": 10, "FK_Haus": 4, "FK_Sensor": 7 },
-      { "ID": 11, "FK_Haus": 4, "FK_Sensor": 8 }
-    ]
-  },
-  {
-    "ID": 5,
-    "adresse": "Alte Gasse 5",
-    "haus_sensor": [
-      { "ID": 12, "FK_Haus": 5, "FK_Sensor": 1 },
-      { "ID": 13, "FK_Haus": 5, "FK_Sensor": 3 }
-    ]
-  },
-  {
-    "ID": 6,
-    "adresse": "Bergweg 6",
-    "haus_sensor": [
-      { "ID": 14, "FK_Haus": 6, "FK_Sensor": 2 },
-      { "ID": 15, "FK_Haus": 6, "FK_Sensor": 4 }
-    ]
-  },
-  {
-    "ID": 7,
-    "adresse": "Seestrass 7",
-    "haus_sensor": [
-      { "ID": 16, "FK_Haus": 7, "FK_Sensor": 5 },
-      { "ID": 17, "FK_Haus": 7, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 8,
-    "adresse": "Hauptstrass 8",
-    "haus_sensor": [
-      { "ID": 18, "FK_Haus": 8, "FK_Sensor": 6 },
-      { "ID": 19, "FK_Haus": 8, "FK_Sensor": 8 }
-    ]
-  },
-  {
-    "ID": 9,
-    "adresse": "Nebenstrass 9",
-    "haus_sensor": [
-      { "ID": 20, "FK_Haus": 9, "FK_Sensor": 1 },
-      { "ID": 21, "FK_Haus": 9, "FK_Sensor": 5 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 2,
-    "adresse": "Beispielweg 2",
-    "haus_sensor": [
-      { "ID": 6, "FK_Haus": 2, "FK_Sensor": 3 },
-      { "ID": 7, "FK_Haus": 2, "FK_Sensor": 4 }
-    ]
-  },
-  {
-    "ID": 3,
-    "adresse": "Testgasse 3",
-    "haus_sensor": [
-      { "ID": 8, "FK_Haus": 3, "FK_Sensor": 5 },
-      { "ID": 9, "FK_Haus": 3, "FK_Sensor": 6 }
-    ]
-  },
-  {
-    "ID": 4,
-    "adresse": "Neue Strass 4",
-    "haus_sensor": [
-      { "ID": 10, "FK_Haus": 4, "FK_Sensor": 7 },
-      { "ID": 11, "FK_Haus": 4, "FK_Sensor": 8 }
-    ]
-  },
-  {
-    "ID": 5,
-    "adresse": "Alte Gasse 5",
-    "haus_sensor": [
-      { "ID": 12, "FK_Haus": 5, "FK_Sensor": 1 },
-      { "ID": 13, "FK_Haus": 5, "FK_Sensor": 3 }
-    ]
-  },
-  {
-    "ID": 6,
-    "adresse": "Bergweg 6",
-    "haus_sensor": [
-      { "ID": 14, "FK_Haus": 6, "FK_Sensor": 2 },
-      { "ID": 15, "FK_Haus": 6, "FK_Sensor": 4 }
-    ]
-  },
-  {
-    "ID": 7,
-    "adresse": "Seestrass 7",
-    "haus_sensor": [
-      { "ID": 16, "FK_Haus": 7, "FK_Sensor": 5 },
-      { "ID": 17, "FK_Haus": 7, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 8,
-    "adresse": "Hauptstrass 8",
-    "haus_sensor": [
-      { "ID": 18, "FK_Haus": 8, "FK_Sensor": 6 },
-      { "ID": 19, "FK_Haus": 8, "FK_Sensor": 8 }
-    ]
-  },
-  {
-    "ID": 9,
-    "adresse": "Nebenstrass 9",
-    "haus_sensor": [
-      { "ID": 20, "FK_Haus": 9, "FK_Sensor": 1 },
-      { "ID": 21, "FK_Haus": 9, "FK_Sensor": 5 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 2,
-    "adresse": "Beispielweg 2",
-    "haus_sensor": [
-      { "ID": 6, "FK_Haus": 2, "FK_Sensor": 3 },
-      { "ID": 7, "FK_Haus": 2, "FK_Sensor": 4 }
-    ]
-  },
-  {
-    "ID": 3,
-    "adresse": "Testgasse 3",
-    "haus_sensor": [
-      { "ID": 8, "FK_Haus": 3, "FK_Sensor": 5 },
-      { "ID": 9, "FK_Haus": 3, "FK_Sensor": 6 }
-    ]
-  },
-  {
-    "ID": 4,
-    "adresse": "Neue Strass 4",
-    "haus_sensor": [
-      { "ID": 10, "FK_Haus": 4, "FK_Sensor": 7 },
-      { "ID": 11, "FK_Haus": 4, "FK_Sensor": 8 }
-    ]
-  },
-  {
-    "ID": 5,
-    "adresse": "Alte Gasse 5",
-    "haus_sensor": [
-      { "ID": 12, "FK_Haus": 5, "FK_Sensor": 1 },
-      { "ID": 13, "FK_Haus": 5, "FK_Sensor": 3 }
-    ]
-  },
-  {
-    "ID": 6,
-    "adresse": "Bergweg 6",
-    "haus_sensor": [
-      { "ID": 14, "FK_Haus": 6, "FK_Sensor": 2 },
-      { "ID": 15, "FK_Haus": 6, "FK_Sensor": 4 }
-    ]
-  },
-  {
-    "ID": 7,
-    "adresse": "Seestrass 7",
-    "haus_sensor": [
-      { "ID": 16, "FK_Haus": 7, "FK_Sensor": 5 },
-      { "ID": 17, "FK_Haus": 7, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 8,
-    "adresse": "Hauptstrass 8",
-    "haus_sensor": [
-      { "ID": 18, "FK_Haus": 8, "FK_Sensor": 6 },
-      { "ID": 19, "FK_Haus": 8, "FK_Sensor": 8 }
-    ]
-  },
-  {
-    "ID": 9,
-    "adresse": "Nebenstrass 9",
-    "haus_sensor": [
-      { "ID": 20, "FK_Haus": 9, "FK_Sensor": 1 },
-      { "ID": 21, "FK_Haus": 9, "FK_Sensor": 5 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
-    ]
-  },
-  {
-    "ID": 10,
-    "adresse": "Rathausplatz 10",
-    "haus_sensor": [
-      { "ID": 22, "FK_Haus": 10, "FK_Sensor": 3 },
-      { "ID": 23, "FK_Haus": 10, "FK_Sensor": 7 }
+    "name": "Jacques Murphy Jr.",
+    "address": "31674 Feeney Walk\nFlatleyside, NM 32644-8603",
+    "sensors": [
+      {
+        "id": 10,
+        "house_id": 1,
+        "type": "temperature",
+        "serial_number": "74466633",
+        "manufacturer": "Feeney, Breitenberg and Lowe",
+        "model": "hic",
+        "measurements": [
+          {
+            "id": 195,
+            "sensor_id": 10,
+            "value": 51.17,
+            "description": "Accusamus repellat a qui ipsam consequuntur.",
+            "measured_at": "2024-02-20 00:32:15"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "house_id": 1,
+        "type": "gas",
+        "serial_number": "85052765",
+        "manufacturer": "Mitchell Ltd",
+        "model": "ut",
+        "measurements": [
+          {
+            "id": 197,
+            "sensor_id": 25,
+            "value": 33.31,
+            "description": "Eaque quia autem ipsam itaque.",
+            "measured_at": "2024-01-01 18:31:54"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "house_id": 1,
+        "type": "humidity",
+        "serial_number": "77284333",
+        "manufacturer": "Raynor-Oberbrunner",
+        "model": "qui",
+        "measurements": [
+          {
+            "id": 190,
+            "sensor_id": 35,
+            "value": 39.72,
+            "description": "Non iusto velit aut eaque.",
+            "measured_at": "2024-03-16 00:33:39"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "house_id": 1,
+        "type": "gas",
+        "serial_number": "15468518",
+        "manufacturer": "Hyatt, Simonis and Hagenes",
+        "model": "et",
+        "measurements": [
+          {
+            "id": 223,
+            "sensor_id": 38,
+            "value": 52.27,
+            "description": "Voluptatum quae debitis id aut aut aut id.",
+            "measured_at": "2024-01-20 01:44:17"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "house_id": 1,
+        "type": "humidity",
+        "serial_number": "66683702",
+        "manufacturer": "Cruickshank-Witting",
+        "model": "blanditiis",
+        "measurements": [
+          {
+            "id": 241,
+            "sensor_id": 47,
+            "value": 22.34,
+            "description": "Qui nesciunt voluptate eaque modi eos.",
+            "measured_at": "2024-06-06 13:27:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dr. Susie Senger",
+    "address": "910 Langosh Mill Apt. 043\nKassulkeville, MN 00614",
+    "sensors": [
+      {
+        "id": 4,
+        "house_id": 2,
+        "type": "temperature",
+        "serial_number": "89037463",
+        "manufacturer": "Mitchell-Jast",
+        "model": "quod",
+        "measurements": [
+          {
+            "id": 210,
+            "sensor_id": 4,
+            "value": 46.05,
+            "description": "In qui deserunt explicabo reprehenderit.",
+            "measured_at": "2024-01-20 19:18:43"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "house_id": 2,
+        "type": "temperature",
+        "serial_number": "8789109",
+        "manufacturer": "Parker Inc",
+        "model": "earum",
+        "measurements": [
+          {
+            "id": 205,
+            "sensor_id": 6,
+            "value": 98.93,
+            "description": "Porro id consequatur magni optio.",
+            "measured_at": "2024-05-12 07:33:30"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "house_id": 2,
+        "type": "temperature",
+        "serial_number": "31874190",
+        "manufacturer": "Mueller, Johns and Nicolas",
+        "model": "autem",
+        "measurements": [
+          {
+            "id": 247,
+            "sensor_id": 13,
+            "value": 92.79,
+            "description": "At at alias aut provident et quo dolorum.",
+            "measured_at": "2024-03-05 05:28:39"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "house_id": 2,
+        "type": "temperature",
+        "serial_number": "42898224",
+        "manufacturer": "Hintz Group",
+        "model": "culpa",
+        "measurements": [
+          {
+            "id": 188,
+            "sensor_id": 16,
+            "value": 58.26,
+            "description": "Libero voluptates consequuntur qui debitis iste dolor non.",
+            "measured_at": "2023-11-25 19:42:20"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "house_id": 2,
+        "type": "pressure",
+        "serial_number": "70371385",
+        "manufacturer": "Gerhold Ltd",
+        "model": "qui",
+        "measurements": [
+          {
+            "id": 67,
+            "sensor_id": 22,
+            "value": 23.15,
+            "description": "A placeat rerum ipsam doloremque.",
+            "measured_at": "2023-06-19 09:37:11"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "house_id": 2,
+        "type": "pressure",
+        "serial_number": "46908988",
+        "manufacturer": "Rogahn and Sons",
+        "model": "alias",
+        "measurements": [
+          {
+            "id": 246,
+            "sensor_id": 28,
+            "value": 69.1,
+            "description": "Qui voluptas nesciunt aut adipisci autem officia.",
+            "measured_at": "2023-09-24 09:42:20"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "house_id": 2,
+        "type": "gas",
+        "serial_number": "19105017",
+        "manufacturer": "Haag, Rolfson and Stanton",
+        "model": "et",
+        "measurements": [
+          {
+            "id": 234,
+            "sensor_id": 29,
+            "value": 59.22,
+            "description": "Corrupti recusandae eligendi voluptatem quia aut similique ut.",
+            "measured_at": "2024-03-08 20:28:17"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "house_id": 2,
+        "type": "pressure",
+        "serial_number": "58692947",
+        "manufacturer": "Sauer LLC",
+        "model": "quisquam",
+        "measurements": [
+          {
+            "id": 228,
+            "sensor_id": 48,
+            "value": 89.81,
+            "description": "Doloribus neque saepe eius aperiam quo et.",
+            "measured_at": "2024-04-03 15:41:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Xander Considine",
+    "address": "454 Dean Road Suite 421\nSouth Bridgetteville, AZ 17336",
+    "sensors": [
+      {
+        "id": 17,
+        "house_id": 3,
+        "type": "temperature",
+        "serial_number": "94080841",
+        "manufacturer": "Fritsch Group",
+        "model": "minus",
+        "measurements": [
+          {
+            "id": 169,
+            "sensor_id": 17,
+            "value": 7.08,
+            "description": "Nihil aspernatur fugiat tempore vitae repudiandae unde.",
+            "measured_at": "2023-09-06 03:55:20"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "house_id": 3,
+        "type": "temperature",
+        "serial_number": "23144092",
+        "manufacturer": "Brekke Inc",
+        "model": "repellendus",
+        "measurements": [
+          {
+            "id": 227,
+            "sensor_id": 18,
+            "value": 88.94,
+            "description": "Qui fuga minus eum facilis rerum quae vel est.",
+            "measured_at": "2024-02-28 17:22:58"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "house_id": 3,
+        "type": "gas",
+        "serial_number": "78639805",
+        "manufacturer": "Baumbach and Sons",
+        "model": "voluptatem",
+        "measurements": [
+          {
+            "id": 42,
+            "sensor_id": 20,
+            "value": 6.71,
+            "description": "Aspernatur tempora vero recusandae numquam nihil.",
+            "measured_at": "2023-07-14 06:18:54"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "house_id": 3,
+        "type": "temperature",
+        "serial_number": "60688950",
+        "manufacturer": "Cole-Lakin",
+        "model": "et",
+        "measurements": [
+          {
+            "id": 229,
+            "sensor_id": 30,
+            "value": 61,
+            "description": "Laborum voluptatum saepe quae pariatur suscipit dicta in molestiae.",
+            "measured_at": "2024-04-23 23:07:09"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "house_id": 3,
+        "type": "temperature",
+        "serial_number": "76374154",
+        "manufacturer": "Ankunding-Crona",
+        "model": "sed",
+        "measurements": [
+          {
+            "id": 186,
+            "sensor_id": 43,
+            "value": 58.26,
+            "description": "Recusandae quae qui deserunt voluptatem.",
+            "measured_at": "2024-02-08 02:31:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celia Will",
+    "address": "589 Percival Inlet Apt. 549\nBergnaumside, ME 61897",
+    "sensors": [
+      {
+        "id": 2,
+        "house_id": 4,
+        "type": "temperature",
+        "serial_number": "71296620",
+        "manufacturer": "Koepp Group",
+        "model": "molestiae",
+        "measurements": [
+          {
+            "id": 202,
+            "sensor_id": 2,
+            "value": 89.98,
+            "description": "Officia iusto voluptatem accusamus sed quam.",
+            "measured_at": "2023-07-12 05:43:09"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "house_id": 4,
+        "type": "humidity",
+        "serial_number": "40696676",
+        "manufacturer": "Kirlin LLC",
+        "model": "facilis",
+        "measurements": [
+          {
+            "id": 51,
+            "sensor_id": 19,
+            "value": 16.43,
+            "description": "Excepturi quod repellendus sed exercitationem non qui.",
+            "measured_at": "2023-11-16 08:30:34"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "house_id": 4,
+        "type": "temperature",
+        "serial_number": "51718910",
+        "manufacturer": "Roob, Lemke and Will",
+        "model": "fugiat",
+        "measurements": [
+          {
+            "id": 181,
+            "sensor_id": 27,
+            "value": 46.22,
+            "description": "Et exercitationem repellendus vel tempora.",
+            "measured_at": "2024-03-19 04:11:12"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "house_id": 4,
+        "type": "temperature",
+        "serial_number": "65032953",
+        "manufacturer": "Romaguera, Hills and Simonis",
+        "model": "distinctio",
+        "measurements": [
+          {
+            "id": 212,
+            "sensor_id": 32,
+            "value": 90.42,
+            "description": "Voluptatem cumque aliquid accusantium sit dicta quasi ullam.",
+            "measured_at": "2023-07-25 22:38:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Prof. Shane Price DVM",
+    "address": "2036 Hoppe Port Apt. 028\nMosciskiland, NM 47397-9829",
+    "sensors": [
+      {
+        "id": 8,
+        "house_id": 5,
+        "type": "gas",
+        "serial_number": "63068514",
+        "manufacturer": "Lynch-Baumbach",
+        "model": "sequi",
+        "measurements": [
+          {
+            "id": 238,
+            "sensor_id": 8,
+            "value": 11.83,
+            "description": "Alias quia quasi error eos dolor libero.",
+            "measured_at": "2023-07-10 05:38:55"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "house_id": 5,
+        "type": "gas",
+        "serial_number": "56310218",
+        "manufacturer": "Parker LLC",
+        "model": "ea",
+        "measurements": [
+          {
+            "id": 196,
+            "sensor_id": 11,
+            "value": 14.91,
+            "description": "Quae aut eos labore iure ut voluptatem.",
+            "measured_at": "2024-01-09 15:32:47"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "house_id": 5,
+        "type": "pressure",
+        "serial_number": "82918949",
+        "manufacturer": "Smith Inc",
+        "model": "delectus",
+        "measurements": [
+          {
+            "id": 156,
+            "sensor_id": 34,
+            "value": 42.2,
+            "description": "Ut quis dolorem nemo quasi.",
+            "measured_at": "2024-04-11 12:03:45"
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "house_id": 5,
+        "type": "temperature",
+        "serial_number": "25325644",
+        "manufacturer": "Leffler, Grady and McKenzie",
+        "model": "aut",
+        "measurements": [
+          {
+            "id": 174,
+            "sensor_id": 50,
+            "value": 66.44,
+            "description": "Quia perspiciatis cupiditate a et tempora.",
+            "measured_at": "2023-06-23 18:49:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Prof. Damon Roberts",
+    "address": "737 Metz Drive\nNew Devonchester, OR 60579",
+    "sensors": [
+      {
+        "id": 12,
+        "house_id": 6,
+        "type": "pressure",
+        "serial_number": "36756633",
+        "manufacturer": "Bogisich and Sons",
+        "model": "repellat",
+        "measurements": [
+          {
+            "id": 178,
+            "sensor_id": 12,
+            "value": 69.95,
+            "description": "Corporis aspernatur qui sit nihil voluptas.",
+            "measured_at": "2024-05-10 20:37:56"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "house_id": 6,
+        "type": "pressure",
+        "serial_number": "61812668",
+        "manufacturer": "Gislason, Mills and Connelly",
+        "model": "et",
+        "measurements": [
+          {
+            "id": 185,
+            "sensor_id": 14,
+            "value": 26.34,
+            "description": "Rerum odio blanditiis dolorum qui voluptatem et.",
+            "measured_at": "2024-04-10 23:01:13"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "house_id": 6,
+        "type": "pressure",
+        "serial_number": "45790506",
+        "manufacturer": "Purdy, Stiedemann and Bauch",
+        "model": "excepturi",
+        "measurements": [
+          {
+            "id": 201,
+            "sensor_id": 23,
+            "value": 42.33,
+            "description": "Qui quaerat id quibusdam veritatis quam voluptate non.",
+            "measured_at": "2023-11-23 21:53:06"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "house_id": 6,
+        "type": "temperature",
+        "serial_number": "130861",
+        "manufacturer": "Hessel-VonRueden",
+        "model": "quos",
+        "measurements": [
+          {
+            "id": 239,
+            "sensor_id": 37,
+            "value": 7.76,
+            "description": "Nemo neque quia quibusdam reiciendis tempora rerum.",
+            "measured_at": "2024-01-23 13:23:33"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "house_id": 6,
+        "type": "pressure",
+        "serial_number": "72736070",
+        "manufacturer": "DuBuque, Bradtke and Bayer",
+        "model": "est",
+        "measurements": [
+          {
+            "id": 5,
+            "sensor_id": 40,
+            "value": 38.83,
+            "description": "Molestias animi veniam repellendus eos consequuntur alias optio.",
+            "measured_at": "2023-08-05 17:28:04"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "house_id": 6,
+        "type": "pressure",
+        "serial_number": "98568642",
+        "manufacturer": "Runte Group",
+        "model": "facilis",
+        "measurements": [
+          {
+            "id": 217,
+            "sensor_id": 42,
+            "value": 30.26,
+            "description": "Harum nulla dignissimos impedit maxime.",
+            "measured_at": "2023-12-14 02:45:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jacynthe Mann",
+    "address": "7402 Predovic Inlet\nNewellfurt, MI 18797",
+    "sensors": [
+      {
+        "id": 26,
+        "house_id": 7,
+        "type": "temperature",
+        "serial_number": "36828339",
+        "manufacturer": "Bergstrom, Cole and Leannon",
+        "model": "esse",
+        "measurements": [
+          {
+            "id": 204,
+            "sensor_id": 26,
+            "value": 29.67,
+            "description": "Qui et dicta dolorem quia vero porro ipsa.",
+            "measured_at": "2023-06-21 13:00:09"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "house_id": 7,
+        "type": "temperature",
+        "serial_number": "58454515",
+        "manufacturer": "Cole-Marquardt",
+        "model": "quos",
+        "measurements": [
+          {
+            "id": 165,
+            "sensor_id": 45,
+            "value": 42.63,
+            "description": "Sapiente molestiae ratione velit veniam nihil cupiditate id voluptatum.",
+            "measured_at": "2023-11-06 15:10:28"
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "house_id": 7,
+        "type": "temperature",
+        "serial_number": "86325426",
+        "manufacturer": "Ullrich-Roberts",
+        "model": "ut",
+        "measurements": [
+          {
+            "id": 243,
+            "sensor_id": 49,
+            "value": 27.09,
+            "description": "Ut exercitationem et dolorum eveniet accusamus eos dolorum veniam.",
+            "measured_at": "2023-06-15 21:30:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mrs. Lydia Reinger",
+    "address": "223 Patsy Mall\nNolanchester, GA 28584",
+    "sensors": [
+      {
+        "id": 1,
+        "house_id": 8,
+        "type": "humidity",
+        "serial_number": "6063438",
+        "manufacturer": "Ryan Inc",
+        "model": "inventore",
+        "measurements": [
+          {
+            "id": 207,
+            "sensor_id": 1,
+            "value": 33.79,
+            "description": "Porro veritatis tenetur doloribus.",
+            "measured_at": "2024-03-03 16:33:08"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "house_id": 8,
+        "type": "humidity",
+        "serial_number": "82744322",
+        "manufacturer": "Carroll Ltd",
+        "model": "neque",
+        "measurements": [
+          {
+            "id": 69,
+            "sensor_id": 15,
+            "value": 60.1,
+            "description": "Ut placeat sed eos odit asperiores quasi tempore.",
+            "measured_at": "2023-11-28 04:17:01"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "house_id": 8,
+        "type": "humidity",
+        "serial_number": "29512900",
+        "manufacturer": "Corwin, Willms and Batz",
+        "model": "voluptas",
+        "measurements": [
+          {
+            "id": 189,
+            "sensor_id": 24,
+            "value": 29.76,
+            "description": "Nostrum nihil porro vitae illo odio.",
+            "measured_at": "2023-12-13 08:33:16"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "house_id": 8,
+        "type": "pressure",
+        "serial_number": "24863237",
+        "manufacturer": "Shanahan-Leuschke",
+        "model": "dolorem",
+        "measurements": [
+          {
+            "id": 105,
+            "sensor_id": 44,
+            "value": 41.16,
+            "description": "Labore quia rem et rerum.",
+            "measured_at": "2023-10-03 11:54:03"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arthur Huel",
+    "address": "6065 Purdy Mill\nPort Jamey, MA 02431-8430",
+    "sensors": [
+      {
+        "id": 3,
+        "house_id": 9,
+        "type": "humidity",
+        "serial_number": "760108",
+        "manufacturer": "Cummings, Schaden and Bergstrom",
+        "model": "porro",
+        "measurements": [
+          {
+            "id": 100,
+            "sensor_id": 3,
+            "value": 40.02,
+            "description": "Aliquid non in expedita ab.",
+            "measured_at": "2023-09-11 06:57:46"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "house_id": 9,
+        "type": "temperature",
+        "serial_number": "74469683",
+        "manufacturer": "Stehr-Koss",
+        "model": "quis",
+        "measurements": [
+          {
+            "id": 194,
+            "sensor_id": 5,
+            "value": 70.8,
+            "description": "Officiis nihil omnis ut voluptates ut.",
+            "measured_at": "2023-06-08 01:39:16"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "house_id": 9,
+        "type": "gas",
+        "serial_number": "70459813",
+        "manufacturer": "Becker, Kuvalis and Gaylord",
+        "model": "repellendus",
+        "measurements": [
+          {
+            "id": 158,
+            "sensor_id": 33,
+            "value": 32.21,
+            "description": "Dolorem quam enim animi est consequuntur corrupti numquam.",
+            "measured_at": "2024-02-29 08:49:34"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "house_id": 9,
+        "type": "pressure",
+        "serial_number": "69037989",
+        "manufacturer": "Klocko, Cormier and Koelpin",
+        "model": "labore",
+        "measurements": [
+          {
+            "id": 179,
+            "sensor_id": 36,
+            "value": 17.33,
+            "description": "Aut et velit ut placeat et aliquam.",
+            "measured_at": "2024-05-09 08:57:34"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "house_id": 9,
+        "type": "pressure",
+        "serial_number": "26615268",
+        "manufacturer": "Farrell, Senger and Collier",
+        "model": "maxime",
+        "measurements": [
+          {
+            "id": 206,
+            "sensor_id": 39,
+            "value": 40.39,
+            "description": "Eveniet sit aperiam ea ex dolor rerum quasi.",
+            "measured_at": "2023-07-14 07:29:38"
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "house_id": 9,
+        "type": "pressure",
+        "serial_number": "95833019",
+        "manufacturer": "Trantow-Kiehn",
+        "model": "qui",
+        "measurements": [
+          {
+            "id": 233,
+            "sensor_id": 41,
+            "value": 76.93,
+            "description": "Adipisci eaque natus libero aut aut.",
+            "measured_at": "2023-10-23 05:58:04"
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "house_id": 9,
+        "type": "humidity",
+        "serial_number": "58808270",
+        "manufacturer": "Pouros Ltd",
+        "model": "fugit",
+        "measurements": [
+          {
+            "id": 26,
+            "sensor_id": 46,
+            "value": 41.44,
+            "description": "Est expedita at porro veniam explicabo consequatur itaque.",
+            "measured_at": "2024-02-23 20:11:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ollie Bashirian",
+    "address": "3264 Bailee Grove Apt. 742\nLubowitzville, MD 59853-5360",
+    "sensors": [
+      {
+        "id": 7,
+        "house_id": 10,
+        "type": "humidity",
+        "serial_number": "99889562",
+        "manufacturer": "Ziemann-Fay",
+        "model": "rem",
+        "measurements": [
+          {
+            "id": 171,
+            "sensor_id": 7,
+            "value": 22.01,
+            "description": "Sit consequatur qui officiis asperiores non dolores.",
+            "measured_at": "2024-01-03 08:34:24"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "house_id": 10,
+        "type": "pressure",
+        "serial_number": "90788526",
+        "manufacturer": "Harris, Runte and Gibson",
+        "model": "saepe",
+        "measurements": [
+          {
+            "id": 242,
+            "sensor_id": 9,
+            "value": 39.93,
+            "description": "Eaque facere non non consectetur.",
+            "measured_at": "2024-05-26 16:20:43"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "house_id": 10,
+        "type": "humidity",
+        "serial_number": "10500319",
+        "manufacturer": "Dickens PLC",
+        "model": "asperiores",
+        "measurements": [
+          {
+            "id": 163,
+            "sensor_id": 21,
+            "value": 51.18,
+            "description": "Illum praesentium similique autem.",
+            "measured_at": "2023-07-18 05:13:48"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "house_id": 10,
+        "type": "humidity",
+        "serial_number": "15199218",
+        "manufacturer": "Effertz-Hansen",
+        "model": "sint",
+        "measurements": [
+          {
+            "id": 236,
+            "sensor_id": 31,
+            "value": 68.5,
+            "description": "Sed commodi et natus dolorum ipsam est.",
+            "measured_at": "2023-07-28 16:25:45"
+          }
+        ]
+      }
     ]
   }
 ]

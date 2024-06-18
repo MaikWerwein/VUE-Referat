@@ -2,12 +2,27 @@
 import HouseCard from '@/components/HouseCard.vue'
 
 import houses from '@/assets/data.json'
+import { computed } from 'vue'
+
+const filter = defineModel('filter', { type: String, default: '' })
+
+const filteredHouses = computed(() => {
+  return houses.filter((h) => {
+    return (
+      h.address.toLowerCase().includes(filter.value.toLowerCase()) ||
+      h.name.toLowerCase().includes(filter.value.toLowerCase())
+    )
+  })
+})
 </script>
 
 <template>
   <div class="center-content">
     <div class="housesGrid grid grid-nogutter">
-      <HouseCard v-for="house in houses" :house="house" :key="house.ID" />
+      <div class="actionBar col-12">
+        <input type="text" placeholder="Namen/Adresssuche" v-model="filter" class="addressSearch" />
+      </div>
+      <HouseCard v-for="house in filteredHouses" :house="house" :key="house.address" />
     </div>
   </div>
 </template>
@@ -22,5 +37,35 @@ import houses from '@/assets/data.json'
 
 .housesGrid {
   margin-right: 1rem;
+}
+
+.actionBar {
+  position: sticky;
+  top: 10px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-background);
+
+  display: flex;
+  align-content: center;
+}
+
+.addressSearch {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+
+  font-size: large;
+
+  padding-bottom: 3px;
+
+  color: var(--color-text);
+  /* border-bottom: 1px solid var(--color-border); */
+  margin: 5px 5px 0px 5px;
+}
+
+input:focus {
+  outline-width: 0;
 }
 </style>

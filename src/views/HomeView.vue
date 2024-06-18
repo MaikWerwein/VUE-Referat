@@ -9,7 +9,7 @@ const loggedIn = computed(() => store.token == 1)
 <template>
   <div class="home-wrapper">
     <div class="home">
-      <h1>Welcome to <c>your</c> Smart City</h1>
+      <h1>Welcome to your Smart City</h1>
       <span v-if="!loggedIn">
         Please <RouterLink :to="{ name: 'login' }">Log in</RouterLink> in to view the dashboard
       </span>
