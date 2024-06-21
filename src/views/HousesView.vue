@@ -1,13 +1,29 @@
 <script setup lang="ts">
 import HouseCard from '@/components/HouseCard.vue'
+import { ref, computed, onMounted } from 'vue'
 
-import houses from '@/assets/data.json'
-import { computed } from 'vue'
+// import houses from '@/assets/data.json'x
+// import { computed } from 'vue'
 
-const filter = defineModel('filter', { type: String, default: '' })
+const houses = ref([])
+
+const loadHouses = async () => {
+  try {
+    const response = await fetch('http://localhost:8000/houses');
+    if (!response.ok) {
+      throw new Error('Daten konnten nicht geladen werden')
+    }
+    houses.value = await response.json()
+  } catch (error) {
+    console.error('Fehler beim Laden der Häuserdaten:', error)
+  }
+}
+
+onMounted(loadHouses)
+const filter = ref('') // Verwenden Sie ref für einfache Textfilterung
 
 const filteredHouses = computed(() => {
-  return houses.filter((h) => {
+  return houses.value.filter((h) => { // Zugriff auf das Array mit houses.value
     return (
       h.address.toLowerCase().includes(filter.value.toLowerCase()) ||
       h.name.toLowerCase().includes(filter.value.toLowerCase())
@@ -15,6 +31,18 @@ const filteredHouses = computed(() => {
   })
 })
 </script>
+
+<!-- // const filter = defineModel('filter', { type: String, default: '' })
+
+// const filteredHouses = computed(() => {
+// return houses.filter((h) => {
+// return (
+// h.address.toLowerCase().includes(filter.value.toLowerCase()) ||
+// h.name.toLowerCase().includes(filter.value.toLowerCase())
+// )
+// })
+// })
+// </script> -->
 
 <template>
   <div class="center-content">

@@ -1,11 +1,11 @@
 <template>
-  <form class="loginWrapper" @submit="checkForm">
+  <form class="loginWrapper" @submit.prevent="submitLogin">
     <div class="loginBox">
-      <div v-if="!errors.input" style="color: var(--color-error)">Falsche eingabe</div>
+      <div v-if="errors.input" style="color: var(--color-error)">{{ errors.input }}</div>
       <span style="position: relative" class="inputWrapper" :data-status="errors.name">
         <input
           class="name inputElement"
-          type="name"
+          type="text"
           v-model="userName"
           placeholder="Name"
           @focusout="invalidateName()"
@@ -24,12 +24,10 @@
         />
         <IconWarn class="feedbackIcon" />
       </span>
-      <input class="loginBtn" type="submit" value="Login" />
+      <input class="loginBtn" type="submit" value="Login" :disabled="isSubmitting" />
     </div>
   </form>
-</template>
-
-<style scoped>
+</template><style scoped>
 .loginWrapper {
   flex-grow: 1;
   height: 100vh;
@@ -94,75 +92,75 @@ input:focus {
   outline-width: 0;
 }
 </style>
-
 <script setup lang="ts">
 import IconWarn from '@/components/icons/IconWarn.vue'
-
 import { useRouter } from 'vue-router'
-import { defineModel, ref } from 'vue'
+import { ref } from 'vue'
 import { store } from '../store.ts'
 
+const router = useRouter()
+const userName = ref('')
+const pass = ref('')
 const errors = ref({
   pass: true,
   name: true,
-  input: true
+  input: ''
 })
-
-const router = useRouter()
-
-const userName = defineModel('userName', { type: String })
-const pass = defineModel('pass', { type: String })
-
-function login() {
-  store.token = 1
-  router.push({ name: 'home' })
-}
+const isSubmitting = ref(false)
 
 function invalidateName() {
-  if (userName == null || userName.value == undefined) {
+  if (!userName.value) {
     errors.value.name = false
-    return
-  }
-  if (userName.value.length == 0) {
-    errors.value.name = false
-    return
   }
 }
 
 function validateName() {
-  if (userName == null || userName.value == undefined) {
-    return
+  if (userName.value) {
+    errors.value.name = true
   }
-  if (userName.value.length == 0) {
-    return
-  }
-
-  errors.value.name = true
 }
 
 function invalidatePass() {
-  if (pass == null || pass.value == undefined) {
+  if (!pass.value) {
     errors.value.pass = false
-    return
-  }
-  if (pass.value.length == 0) {
-    errors.value.pass = false
-    return
   }
 }
 
 function validatePass() {
-  if (pass == null || pass.value == undefined) {
-    return
+  if (pass.value) {
+    errors.value.pass = true
   }
-  if (pass.value.length == 0) {
-    return
-  }
-  errors.value.pass = true
 }
 
-function checkForm(e: Event) {
-  e.preventDefault()
-  login()
+async function submitLogin() {
+  try {
+    isSubmitting.value = true
+    errors.value.input = ''
+
+    const response = await fetch('/api/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        username: userName.value,
+        password: pass.value
+      })
+    })
+
+    const data = await response.json()
+
+    if (data.success) {
+      store.token = data.token
+      router.push({ name: 'home' })
+    } else {
+      errors.value.input = data.error || 'Ungültige Anmeldedaten'
+    }
+  } catch (error) {
+    errors.value.input = 'Fehler beim Login. Bitte versuchen Sie es später erneut.'
+    console.error(error)
+  } finally {
+    isSubmitting.value = false
+  }
 }
 </script>
