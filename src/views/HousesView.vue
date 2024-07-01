@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import HouseCard from '@/components/HouseCard.vue'
 
-import houses from '@/assets/data.json'
+import housesData from '@/assets/data.json'
 import { computed } from 'vue'
+import type { House } from '@/components/HouseType'
+
+const houses: Array<House> = housesData as unknown as Array<House>
 
 const filter = defineModel('filter', { type: String, default: '' })
 

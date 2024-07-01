@@ -58,30 +58,7 @@
 import type { PropType, Ref } from 'vue'
 import { ref } from 'vue'
 import IconHouse from './icons/IconHouse.vue'
-
-type Measurements = {
-  id: number
-  sensor_id: number
-  description: string
-  measured_at: Date
-  value: number
-}
-
-type Sensor = {
-  id: number
-  house_id: string
-  type: string
-  serial_number: string
-  manufacturer: string
-  model: string
-  measurements: Array<Measurements>
-}
-
-type House = {
-  name: string
-  address: string
-  sensors: Array<Sensor>
-}
+import type { House, Sensor } from './HouseType.ts'
 
 const props = defineProps({ house: { type: Object as PropType<House>, required: true } })
 
