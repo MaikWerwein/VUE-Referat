@@ -28,7 +28,6 @@
     </div>
   </form>
 </template>
-
 <style scoped>
 .loginWrapper {
   flex-grow: 1;
@@ -114,8 +113,35 @@ const userName = defineModel('userName', { type: String })
 const pass = defineModel('pass', { type: String })
 
 function login() {
-  store.token = 1
-  router.push({ name: 'home' })
+  const apiUrl = 'http://127.0.0.1/api/login_check'
+  const data = {
+    password: pass,
+    email: userName
+  }
+
+  const requestOptions = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+
+    body: JSON.stringify(data)
+  }
+
+  fetch(apiUrl, requestOptions)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok')
+      }
+      return response.json()
+    })
+    .then((data) => {
+      store.token = data.token
+      router.push({ name: 'home' })
+    })
+    .catch((error) => {
+      console.error('Error:', error)
+    })
 }
 
 function invalidateName() {

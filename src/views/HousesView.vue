@@ -1,16 +1,38 @@
 <script setup lang="ts">
 import HouseCard from '@/components/HouseCard.vue'
+import { store } from '@/store'
 
-import housesData from '@/assets/data.json'
+// import housesData from '@/assets/data.json'
+var housesData: Array<House> = []
+//send username and password to /api/logincheck
+
+const requestOptions = {
+  headers: {
+    Authorization: store.token
+  }
+}
+
+fetch('http://127.0.0.1:8080/api/homes', requestOptions)
+  .then((r) => {
+    if (!r.ok) {
+      throw new Error('Network response was not ok')
+    }
+    return r.json()
+  })
+  .then((data) => {
+    housesData = data['hydra:member']
+  })
+  .catch((error) => {
+    console.error('Error:', error)
+  })
+
 import { computed } from 'vue'
 import type { House } from '@/components/HouseType'
-
-const houses: Array<House> = housesData as unknown as Array<House>
 
 const filter = defineModel('filter', { type: String, default: '' })
 
 const filteredHouses = computed(() => {
-  return houses.filter((h) => {
+  return housesData.filter((h) => {
     return (
       h.address.toLowerCase().includes(filter.value.toLowerCase()) ||
       h.name.toLowerCase().includes(filter.value.toLowerCase())

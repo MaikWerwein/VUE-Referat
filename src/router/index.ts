@@ -10,7 +10,6 @@ import HousesView from '@/views/HousesView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // Man könnte die sidebar dynamisch generieren
     {
       path: '/',
       name: 'home',
@@ -65,7 +64,7 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   const token = store.token
   if (!to.meta.public) {
-    if (token == 1) {
+    if (token != 0) {
       // User is authenticated, proceed to the route
       console.log('Access granted to: ' + to.fullPath)
       next()
