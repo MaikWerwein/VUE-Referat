@@ -293,7 +293,7 @@ function translateSensor(sensor: object): Sensor {
     const measurement: Measurement = {
       id: measuredValue['id'],
       description: measuredValue['description'],
-      measured_at: measuredValue['timestamp'],
+      measured_at: new Date(measuredValue['timestamp']),
       value: measuredValue['value']
     }
     measurements.push(measurement)
