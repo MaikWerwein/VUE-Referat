@@ -3,29 +3,9 @@ import HouseCard from '@/components/HouseCard.vue'
 import { store } from '@/store'
 
 // import housesData from '@/assets/data.json'
-var housesData: Array<House> = []
+var housesData: Array<House> = store.data
 //send username and password to /api/logincheck
-
-const requestOptions = {
-  headers: {
-    Authorization: store.token
-  }
-}
-
-fetch('http://127.0.0.1:8080/api/homes', requestOptions)
-  .then((r) => {
-    if (!r.ok) {
-      throw new Error('Network response was not ok')
-    }
-    return r.json()
-  })
-  .then((data) => {
-    housesData = data['hydra:member']
-  })
-  .catch((error) => {
-    console.error('Error:', error)
-  })
-
+console.log(store.data)
 import { computed } from 'vue'
 import type { House } from '@/components/HouseType'
 
@@ -94,3 +74,4 @@ input:focus {
   outline-width: 0;
 }
 </style>
+ 

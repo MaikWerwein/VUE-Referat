@@ -4,11 +4,11 @@
       <div class="header flex vertical-align-middle justify-space-between">
         <IconHouse class="statusColor" :data-status="issue" />
         <span class="title-text pl-2">
-          {{ house.name }}
+          {{ house.address }}
         </span>
       </div>
       <div class="grid" v-for="[key, value] in readingsMap" :key="key">
-        <div class="col-8">{{ key[0].toUpperCase() + key.slice(1) }}</div>
+        <div class="col-8">{{ key }}</div>
         <div class="col-1">:</div>
         <div class="col-3">{{ value }}</div>
       </div>
@@ -48,7 +48,7 @@
 
 .statusColor {
   color: var(--color-error);
-  &[data-status=''] {
+  &[data-status='0'] {
     color: var(--color-accent);
   }
 }
@@ -63,7 +63,6 @@ import type { House, Sensor } from './HouseType.ts'
 const props = defineProps({ house: { type: Object as PropType<House>, required: true } })
 
 let valueMap: Map<string, Array<Sensor>> = new Map()
-
 props.house.sensors.forEach((element: Sensor) => {
   let type: string = element.type
   if (!valueMap.has(type)) {
@@ -93,21 +92,8 @@ valueMap.forEach((sensors, key) => {
 console.log('House:' + props.house.name)
 console.log(readingsMap.value)
 
-function randomInteger(min: number, max: number) {
-  return Math.floor(Math.random() * (max - min + 1)) + min
-}
-
-function randomIssue() {
-  switch (randomInteger(0, 10)) {
-    case 1:
-      return 'Gasleak'
-    case 2:
-      return 'Waterleak'
-    default:
-      return ''
-  }
-}
 
 const issue = defineModel('issue', { type: String })
-issue.value = randomIssue()
+issue.value = readingsMap.value.has('bool')? readingsMap.value.get('bool') : 0
 </script>
+ 

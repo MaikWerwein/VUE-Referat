@@ -64,7 +64,7 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   const token = store.token
   if (!to.meta.public) {
-    if (token != 0) {
+    if (token.length > 0) {
       // User is authenticated, proceed to the route
       console.log('Access granted to: ' + to.fullPath)
       next()
@@ -82,3 +82,4 @@ router.beforeEach((to, from, next) => {
 })
 
 export default router
+ 

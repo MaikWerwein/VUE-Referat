@@ -11,7 +11,7 @@ import { computed } from 'vue'
 
 import { store } from '@/store.ts'
 
-const loggedIn = computed(() => store.token == 1)
+const loggedIn = computed(() => store.token.length != 0)
 console.log('Logged in: ' + loggedIn.value)
 </script>
 
@@ -56,3 +56,4 @@ console.log('Logged in: ' + loggedIn.value)
     <NavBarItem route="login" v-else> <IconLogin /> </NavBarItem>
   </div>
 </template>
+ 
